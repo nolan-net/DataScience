@@ -8,3 +8,13 @@ To get the most updated version check this link and follow the steps: https://it
 
 Positive Words: https://gist.github.com/mkulakowski2/4289441 By mkulakowski2
 Negative Words: https://gist.github.com/mkulakowski2/4289437 By mkulakowski2
+
+mkulakowski requested that the following works be cited as for how the sentiment analysis words were obtained:
+    Minqing Hu and Bing Liu. "Mining and Summarizing Customer Reviews." 
+        Proceedings of the ACM SIGKDD International Conference on Knowledge 
+        Discovery and Data Mining (KDD-2004), Aug 22-25, 2004, Seattle, 
+        Washington, USA, 
+    Bing Liu, Minqing Hu and Junsheng Cheng. "Opinion Observer: Analyzing 
+        and Comparing Opinions on the Web." Proceedings of the 14th 
+        International World Wide Web conference (WWW-2005), May 10-14, 
+        2005, Chiba, Japan.
