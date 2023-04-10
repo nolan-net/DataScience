@@ -6,8 +6,8 @@ Large AITA Dataset: https://drive.google.com/file/d/17TQUaK5kxu_8FU0FvZImsH3_hpw
     
 To get the most updated version check this link and follow the steps: https://iterative.ai/blog/a-public-reddit-dataset
 
-Positive Words: https://gist.github.com/mkulakowski2/4289441 By mkulakowski2
-Negative Words: https://gist.github.com/mkulakowski2/4289437 By mkulakowski2
+Negative Words: https://gist.github.com/mkulakowski2/4289441 By mkulakowski2
+Positive Words: https://gist.github.com/mkulakowski2/4289437 By mkulakowski2
 
 mkulakowski requested that the following works be cited as for how the sentiment analysis words were obtained:
     Minqing Hu and Bing Liu. "Mining and Summarizing Customer Reviews." 
