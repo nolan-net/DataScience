@@ -33,7 +33,3 @@ Ensure you have all necessary libraries installed, including `pandas`, `numpy`, 
 Special thanks to Elle O'Brien for the AITA dataset and mkulakowski2 for the sentiment words. As per mkulakowski's request, the following works were foundational in curating the sentiment word lists:
 - Minqing Hu and Bing Liu. "Mining and Summarizing Customer Reviews." Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD-2004).
 - Bing Liu, Minqing Hu and Junsheng Cheng. "Opinion Observer: Analyzing and Comparing Opinions on the Web." Proceedings of the 14th International World Wide Web conference (WWW-2005).
-
----
-
-You can now use this README as a starting point for your GitHub repository or any platform where you host this project. Remember to adjust any parts if necessary and add visuals if they enhance understanding.
