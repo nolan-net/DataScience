@@ -26,9 +26,6 @@ The interactive graph allows users to explore the relationship between the lengt
 ## Challenges & Learnings
 Determining sentiment can be subjective, and while word lists provide a starting point, the context in which words are used is critical. This project showed that straightforward sentiment analysis and post length might not be the most definitive indicators for judgments on this subreddit.
 
-## How to Run
-Ensure you have all necessary libraries installed, including `pandas`, `numpy`, `re`, `matplotlib`, and `ipywidgets`. Load the provided datasets and execute the Python script.
-
 ## Acknowledgements
 Special thanks to Elle O'Brien for the AITA dataset and mkulakowski2 for the sentiment words. As per mkulakowski's request, the following works were foundational in curating the sentiment word lists:
 - Minqing Hu and Bing Liu. "Mining and Summarizing Customer Reviews." Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD-2004).
