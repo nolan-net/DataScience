@@ -1,0 +1,39 @@
+# Reddit AITA Sentiment Analysis
+
+## Introduction
+In this project, I set out to analyze sentiment within the "Am I the Asshole" (AITA) subreddit posts to determine patterns or correlations that might reveal the likelihood of a post being voted as an "asshole". The study aimed to understand whether there's a relationship between certain keywords or the length of posts and the final judgment.
+
+## Datasets
+- **AITA Posts**: This dataset contains cleaned posts from the AITA subreddit. It can be [downloaded here](https://drive.google.com/file/d/17TQUaK5kxu_8FU0FvZImsH3_hpwutQRr/view?usp=sharing). For the most updated version, visit [this link](https://iterative.ai/blog/a-public-reddit-dataset) and follow the mentioned steps.
+  
+- **Sentiment Words**: I used two lists of words, one with [negative connotations](https://gist.github.com/mkulakowski2/4289441) and the other with [positive connotations](https://gist.github.com/mkulakowski2/4289437). The words from these lists were curated by mkulakowski2, who based the selection on the works of Minqing Hu and Bing Liu.
+
+## Methodology
+1. Loaded and cleaned the AITA dataset to fill any missing data.
+2. Calculated the proportion of posts classified as "asshole".
+3. Grouped and aggregated data by month to see trends across the year.
+4. Imported and sampled words from both positive and negative sentiment datasets.
+5. Used regex matching to check the occurrence of these words in AITA posts.
+6. Tested correlation between sentiment words and judgment.
+7. Checked if post length had any correlation with being voted an "asshole".
+
+## Results
+Visualizations indicate a fairly consistent distribution of judgments throughout the year. Initial sentiment analysis based on positive and negative words did not show a significant correlation. Additionally, the character length of posts seemed to have a vague correlation with judgments but wasn't a precise indicator.
+
+## Interactive Graph
+The interactive graph allows users to explore the relationship between the length of a post (number of characters) and its judgment. It provides insights into whether longer posts tend to be judged differently than shorter ones.
+
+## Challenges & Learnings
+Determining sentiment can be subjective, and while word lists provide a starting point, the context in which words are used is critical. This project showed that straightforward sentiment analysis and post length might not be the most definitive indicators for judgments on this subreddit.
+
+## How to Run
+Ensure you have all necessary libraries installed, including `pandas`, `numpy`, `re`, `matplotlib`, and `ipywidgets`. Load the provided datasets and execute the Python script.
+
+## Acknowledgements
+Special thanks to Elle O'Brien for the AITA dataset and mkulakowski2 for the sentiment words. As per mkulakowski's request, the following works were foundational in curating the sentiment word lists:
+- Minqing Hu and Bing Liu. "Mining and Summarizing Customer Reviews." Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD-2004).
+- Bing Liu, Minqing Hu and Junsheng Cheng. "Opinion Observer: Analyzing and Comparing Opinions on the Web." Proceedings of the 14th International World Wide Web conference (WWW-2005).
+
+---
+
+You can now use this README as a starting point for your GitHub repository or any platform where you host this project. Remember to adjust any parts if necessary and add visuals if they enhance understanding.
